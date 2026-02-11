@@ -44,7 +44,7 @@ btn.onclick = async (e) => {
     img.style.display = "none";
     link.style.display = "none";
 
-    const res = await fetch("hhttps://as-qr-generator.onrender.com", {
+    const res = await fetch("https://as-qr-generator.onrender.com", {
         method: "POST",
         headers: {"Content-Type": "application/json"},
         body: JSON.stringify({ 
