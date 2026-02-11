@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QR Generator | Project by Aaradhya</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>QR Generator</h1>
+        <p class="subtitle">A project by <span class="name">Aaradhya</span></p>
+    </header>
+
+    <!-- Main Card -->
+    <main class="card">
+        <p id="hint" class="hint"></p>
+        <input id="text" placeholder="Enter text or link (https://...)" />
+       <div class="format-toggle">
+           <span>PNG</span>
+           <label class="switch">
+              <input type="checkbox" id="formatToggle">
+              <span class="slider"></span>
+           </label>
+           <span>SVG</span>
+        </div>
+
+        <button id="btn" type="button">Generate QR</button>
+        
+        <p id="status"></p>
+
+        <img id="img" />
+        <p id="previewNote" class="preview-note"></p>
+        <a id="link">Download QR</a>
+        <button id="clearBtn" type="button">Clear</button>
+
+
+    </main>
+
+    <!-- Footer / Branding -->
+    <footer>
+        <p>Built for everyone
+            hehehe....
+        </p>
+        
+        <div class="socials">
+            <a href="https://github.com/Aaradhya1998" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/aaradhya-shekdar-724844383/" target="_blank">LinkedIn</a>
+            <a href="https://www.instagram.com/aaradhyashekdar/" target="_blank">Instagram</a>
+        </div>
+        <p class="watermark">© Aaradhya — QR Generator Project</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
