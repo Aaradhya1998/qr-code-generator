@@ -44,7 +44,7 @@ btn.onclick = async (e) => {
     img.style.display = "none";
     link.style.display = "none";
 
-    const res = await fetch("http://127.0.0.1:5000/generate", {
+    const res = await fetch("hhttps://as-qr-generator.onrender.com", {
         method: "POST",
         headers: {"Content-Type": "application/json"},
         body: JSON.stringify({ 
@@ -58,7 +58,7 @@ btn.onclick = async (e) => {
 
     if (data.status === "success") {
         // cache-busting so no flash
-        const url = `http://127.0.0.1:5000/download/${data.file}?t=${Date.now()}`;
+        const url = `https://as-qr-generator.onrender.com/${data.file}?t=${Date.now()}`;
 
         img.onload = () => {
             if (!isPreview) {
