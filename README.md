@@ -73,33 +73,8 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Backend runs on:
-
-```
-http://localhost:5000
-```
-
----
-
-### 3. Run Frontend
-
-Open:
-
-```
-frontend/index.html
-```
-
-(or use Live Server in VS Code)
-
----
-
-## 🔌 API Endpoints
-
-### Generate QR Code
-
-```
-POST /generate
-```
+#Check Out the Live demo 
+at  https://asqrgenrator.netlify.app/
 
 **Request:**
 
